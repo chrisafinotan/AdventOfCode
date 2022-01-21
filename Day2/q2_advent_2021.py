@@ -14,7 +14,6 @@ print(fwd, depth, fwd * depth)
 #part 2
 fwd = depth = aim = 0
 with open('day2_input1.txt') as file:
-# with open('test.txt') as file:
     for index, line in enumerate(file.readlines()):
         cmd = line.strip()
         if 'forward' in cmd:
